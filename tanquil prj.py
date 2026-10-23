@@ -33,7 +33,7 @@ def move(M,direction):
         print("Invalid move")
         return find_zero(M)
     
-EF=[[1,2,3],[4,5,6],[7,8,0]]
+EF=[[1,2,3],[8,0,4],[7,6,5]]
 N=[0,1,2,3,4,5,6,7,8]
 M=[]
 for i in range (3):
